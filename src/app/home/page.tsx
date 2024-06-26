@@ -5,14 +5,14 @@ import ScrollTrigger from "gsap/ScrollTrigger"
 import SplitType from "split-type"
 import Typed from "typed.js"
 import Lenis from "lenis"
-import AOS from 'aos'
-import 'aos/dist/aos.css'
+import AOS from "aos"
+import "aos/dist/aos.css"
 import Image from "next/image"
 import { FaFileDownload, FaLock } from "react-icons/fa"
 import { useState, useEffect } from "react"
 import Navbar from "../components/navbar"
 import Footer from "../components/footer"
-import AlertDownload from './alert'
+import AlertDownload from "./alert"
 import Assets from "../utils/assetComponents"
 
 const Home = () => {
