@@ -44,7 +44,7 @@ const Home = () => {
         // Text Reveal Effect
         gsap.registerPlugin(ScrollTrigger)
 
-        const splitTypes = document.querySelectorAll('#revealText')
+        const splitTypes = document.querySelectorAll<HTMLElement>('#revealText');
         splitTypes.forEach((char, i) => {
             const text = new SplitType(char, { types: 'chars,words' })
 
