@@ -9,7 +9,7 @@ const Footer = () => {
                 <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
                     <hr className="my-6 sm:mx-auto border-gray-700 lg:my-8" />
                     <div className="sm:flex sm:items-center sm:justify-between">
-                        <span className="text-sm sm:text-center text-gray-400">© {year}. All Rights Reserved.
+                        <span className="text-sm sm:text-center text-gray-400">&copy; {year}. All Rights Reserved.
                         </span>
                         <div className="flex mt-4 sm:justify-center sm:mt-0">
                             <a href="https://facebook.com/adrianus_bagus" target="_blank" className="text-gray-500 hover:text-white">

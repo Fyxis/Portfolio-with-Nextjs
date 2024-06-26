@@ -102,7 +102,7 @@ const Home = () => {
                                 <span className="flex flex-row items-end">s<FaLock className="text-4xl pb-1 text-neutral-300" />fe.</span>
                             </h1>
                             <p data-aos="fade-left" className="text-lg font-semibold text-gray-400 mt-5">
-                                As a <span className="font-extrabold underline">Backend Developer</span>, I'm looking for ideas to improve security on all websites.
+                                As a <span className="font-extrabold underline">Backend Developer</span>, I&apos;m looking for ideas to improve security on all websites.
                                 Having expertise in Node.js is very helpful in the field of API <span id="changeText"></span>
                             </p>
                             <div data-aos="fade-up" className="flex flex-col bg-slate-200 w-fit rounded-xl mt-5">
@@ -117,7 +117,7 @@ const Home = () => {
                 <div className="mt-5 h-screen">
                     <div className="flex justify-center">
                         <div className="flex flex-col justify-center items-center gap-2" data-aos="fade-up">
-                            <p className="text-white text-4xl font-semibold italic" id="revealText">"The more mistakes you make, the more knowledge you gain."</p>
+                            <p className="text-white text-4xl font-semibold italic" id="revealText">&quot;The more mistakes you make, the more knowledge you gain.&quot;</p>
                             <span className="text-white text-lg" id="revealText">Adrianus Bagus</span>
                         </div>
                     </div>
