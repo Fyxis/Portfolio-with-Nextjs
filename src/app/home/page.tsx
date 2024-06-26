@@ -64,7 +64,7 @@ const Home = () => {
         // Smooth Scrolling
         const lenis = new Lenis()
 
-        function raf(time) {
+        function raf(time: number) {
             lenis.raf(time)
             requestAnimationFrame(raf)
         }
